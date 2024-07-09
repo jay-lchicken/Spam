@@ -1,4 +1,4 @@
-import KahootSpam from 'node: kahoot.js-updated'
+const KahootSpam = require('kahoot-spam')
 document.getElementById('spamForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const gamePin = document.getElementById('gamePin').value;
