@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "kahoot.js-updated": "^3.404.1"
+  },
+  "type": "module",
+  "name": "kahhot",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}

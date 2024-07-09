@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahoot Spam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kahoot Spam Tool</h1>
+        <form id="spamForm">
+            <label for="gamePin">Game PIN:</label>
+            <input type="number" id="gamePin" name="gamePin" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="times">Number of times:</label>
+            <input type="number" id="times" name="times" required>
+
+            <button type="submit">Spam Kahoot</button>
+        </form>
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
